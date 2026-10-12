@@ -1,16 +1,47 @@
-# React + Vite
+# Abdalghali Abdallah — Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive React portfolio with a dark navy / purple / cyan visual identity, animated sections, and English, Arabic, and Indonesian language switching.
 
-Currently, two official plugins are available:
+## Included sections
+- Hero and social links
+- About and study profile
+- Selected projects with status labels
+- Skills and technologies
+- Achievements and community/media work
+- Contact/social links
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Run locally
 
-## React Compiler
+Requirements: Node.js 20.19+ or 22.12+ (Vite 8 requirement).
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+npm install
+npm run dev
+```
 
-## Expanding the ESLint configuration
+Open the local URL printed by Vite.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Build for deployment
+
+```bash
+npm run build
+npm run preview
+```
+
+The production site is generated in `dist/` and can be deployed to Vercel or another static hosting provider.
+
+## Before publishing
+- Review all external profile links.
+- Add repository links or screenshots for projects when they are ready to be public.
+- If adding a CV, place the PDF in `public/` and link to it from the hero section.
+- Keep school/student data private in screenshots and demos.
+
+## Confirmed project details used here
+- School Management System: completed, working, currently used by the school.
+- Sudanese Students Association Website: public link included.
+- Sudanese Students Association Android App: completed and working.
+- ZOL AI: in progress; repository link included.
+- Hanan Chat: working prototype.
+- Festival Handai Indonesia 2024: third place.
+- Indonesian poetry competition: participated twice; no placement stated.
+- Media work: poster design and social media content management.
