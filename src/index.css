@@ -1,11 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
-
-body {
-  font-family: 'Poppins', sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-html {
-  scroll-behavior: smooth;
-}
+:root{font-family:'DM Sans',sans-serif;color:#edf2ff;background:#090d1a;font-synthesis:none;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-optical-sizing:auto;font-weight:400;scroll-behavior:smooth;--bg:#090d1a;--panel:#11182a;--panel-2:#151d32;--line:rgba(160,177,218,.14);--text:#edf2ff;--muted:#9ba8c5;--purple:#9b6bff;--cyan:#49d9e9;--blue:#7194ff;--font-display:'Manrope',sans-serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:100px}body{margin:0;min-width:320px;background:var(--bg)}body,button,a{font-family:'DM Sans',sans-serif}button,a{-webkit-tap-highlight-color:transparent}a{color:inherit;text-decoration:none}button{color:inherit}::selection{background:rgba(155,107,255,.35);color:white}img{max-width:100%;display:block}button:focus-visible,a:focus-visible{outline:2px solid var(--cyan);outline-offset:4px}
